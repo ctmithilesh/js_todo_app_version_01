@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 // Delete Button 
                 const todo_id = item.id
                 const deleteButton = document.createElement("button");
-                deleteButton.textContent = "Delete me";
+                deleteButton.textContent = "Delete";
                 deleteButton.onclick = function () {
                     deleteTodo(todo_id); // Pass the ID 100 to the function
                 };
