@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', () => {
       if (response.status === 200) {
         console.log(response)
         console.log('Todo submitted successfully');
-        window.location.href = "todo_dashboard.html"
+        window.location.href = "../pages/todo_dashboard.html"
       } else {
         console.error('Error submitting todo');
       }
